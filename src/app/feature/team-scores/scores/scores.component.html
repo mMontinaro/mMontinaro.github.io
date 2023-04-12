@@ -1,0 +1,4 @@
+<p>{{constants.labels.pastScores}}</p>
+<div *ngFor="let game of results">
+  <span>{{game.homeTeam.abbreviation}}</span> {{game.homeScore}} - {{game.visitorScore}} <span>{{game.visitorTeam.abbreviation}}</span>
+</div>
